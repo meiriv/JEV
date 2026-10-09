@@ -1,0 +1,15 @@
+[project]
+name = "jev-project"
+version = "0.1.0"
+description = "Exploration and testing of TypeSafe AI's System One model Jev"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typesafe-sdk>=0.7.3",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
